@@ -7,7 +7,6 @@ let instance;
 
 galleryCards.insertAdjacentHTML('beforeend', cards);
 galleryCards.addEventListener('click', onCardClick);
-
 function createGalleryCards() {
 return galleryItems.map(({preview, original, description}) => {
     return`
